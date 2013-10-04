@@ -1,0 +1,16 @@
+Source: extility-default-payment-providers
+Section: unknown
+Priority: extra
+Maintainer: Alex Bligh <alex@flexiant.com>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.8.3
+Homepage: http://www.flexiant.com/
+
+Package: extility-default-payment-providers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Default payment providers for Extility
+ This package providers the default payment providers for Extility
+
+
+

@@ -1,0 +1,11 @@
+#!/bin/sh
+
+SERVICE=/var/run/extility/jade/service-interface
+
+if [ -e "$SERVICE" ] ; then
+    echo "load-fdl" > "$SERVICE"
+fi
+
+#DEBHELPER#
+
+exit 0
