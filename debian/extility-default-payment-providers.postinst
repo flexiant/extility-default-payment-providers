@@ -3,7 +3,7 @@
 SERVICE=/var/run/extility/jade/service-interface
 
 if [ -e "$SERVICE" ] ; then
-    echo "load-fdl" > "$SERVICE"
+    echo "reload-fdl" > "$SERVICE"
 fi
 
 #DEBHELPER#
